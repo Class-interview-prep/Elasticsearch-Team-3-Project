@@ -75,3 +75,4 @@ Output
 
 ```
 If you see this output , Elasticsearch is up and running. 
+
