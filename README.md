@@ -35,10 +35,12 @@ This tutorial provides you how to install the Elastic Stack on a CentOS 7 server
 
 [Prerequisites](#prerequisites)
 
- - Nginx installed on your server, which you will configure later in this guide as a reverse proxy for Kibana. Follow our guide on How To Install Nginx on CentOS 7 to set this up. 
- [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Install%20Nginx.md)
+ - Nginx installed on your server, which you will configure later in this guide as a reverse proxy for Kibana. 
+ *Follow our guide on How To Install Nginx on CentOS 7 to set this up. 
+ [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Install%20Nginx.md)*
 
 
 * Java 8 — which is required by Elasticsearch and Logstash — installed on your server. 
+*Follow our guide on How To Install Java 8 on CentOS 7 to set this up. [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Install%20Java.md)*
 
 Before you start with this tutorial, make sure you are logged into your server with a user account with sudo privileges or with the root user
