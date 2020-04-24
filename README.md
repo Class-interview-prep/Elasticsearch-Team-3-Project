@@ -129,18 +129,18 @@ Sources:
 
 ## Contributors
 
-This tutorial created by Evolve Cyber February batch 2020 Team 3 members listed above:
+This tutorial created by Evolve Cyber February batch 2020 Team-3 members listed below with hours contributed:
 
--  Meryem Elibal - merycicek@gmail.com
+-  Meryem Elibal - merycicek@gmail.com - Team hours -15 hours total - 20 hours
 
-  - Rasheed Balogun - balloray@gmail.com
+  - Rasheed Balogun - balloray@gmail.com - Team hour-18 hours Total -30 hours
 
--  Davronbek Normuradov - davronbekn@gmail.com
+-  Davronbek Normuradov - davronbekn@gmail.com - Team hour-18 Total - 25 hours
 
- -  Azymberdi Gutdanov - azymberdi@gmail.com
+ -  Azymberdi Gutdanov - azymberdi@gmail.com -Team hours 18 Total  - 30 hours
 
-- Solongo Ganbold -solongocyber@gmail.com
+- Solongo Ganbold -solongocyber@gmail.com - Team hours -18 hours Total - 27 hours
 
--  Sophie Kamil - sophie.s.kamil@gmail.com
+-  Sophie Kamil - sophie.s.kamil@gmail.com -Team hours -18 hours Total - 26 hours
 
- - AdnanK - adnankursun@gmail.com
+ - AdnanK - adnankursun@gmail.com - Team hours 9hours joined to group late
