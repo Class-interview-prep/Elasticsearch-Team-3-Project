@@ -24,7 +24,14 @@ You can also view which users have used the sudo command and when:
  
 Kibana has many other features, such as graphing and filtering, so feel free to explore.
 
-Conclusion
+Conclusion:
 
 In this tutorial, you installed and configured the Elastic Stack to collect and analyze system logs. Remember that you can send just about any type of log or indexed data to Logstash using Beats, but the data becomes even more useful if it is parsed and structured with a Logstash filter, as this transforms the data into a consistent format that can be read easily by Elasticsearch.
 
+Sources:
+
+ <https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elastic-stack-on-centos-7>
+
+ <https://guides.github.com/features/wikis/>
+
+ <https://www.elastic.co/elasticsearch/service?ultron=[EL]-[B]-[AMER]-US+CA-BMM&blade=adwords-s&Device=c&thor=%2Belasticsearch%20%2Binstall&gclid=CjwKCAjwnIr1BRAWEiwA6GpwNWyCCIKb6aH049pEtt7LlSFk2xD05gn12UNPn0DZW2F9qvp6wJUCLhoCMxgQAvD_BwE>
