@@ -101,14 +101,10 @@ _**Follow our guide on How To Install Kibana on CentOS 7. [Click Here](https://g
 ![Logstash logo](https://www.javainuse.com/beats-logstash.jpg)
 
 
-_**Follow our guide on How To Install Logstash on 
-
-CentOS 7. [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Logstash%20Installation.md)**_
+_**Follow our guide on How To Install Logstash on CentOS 7. [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Logstash%20Installation.md)**_
 
 ## Step 4 — Installing and Configuring Filebeat
 
 ![](https://cezarypiatek.github.io/post/demystifying-elk-stack/elk_overview.jpg)
 
-_**Follow our guide on How To Install Filebeat on 
-
-CentOS 7. [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Filebeat%20Installation.md)**_
+_**Follow our guide on How To Install Filebeat on CentOS 7. [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Filebeat%20Installation.md)**_
