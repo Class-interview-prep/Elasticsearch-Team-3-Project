@@ -1,9 +1,7 @@
 # Step 2 — Installing and Configuring the Kibana Dashboard
 By default, Kibana listens on port 5601.
-What is Kiaban?
-
-dcfdcdsdqwertyuqwertyqwertyqwertyqwertqwert
-
+What is Kibana?
+Kibana is an open source frontend application that sits on top of the Elastic Stack, providing search and data visualization capabilities for data indexed in Elasticsearch. Commonly known as the charting tool for the Elastic Stack (previously referred to as the ELK Stack after Elasticsearch, Logstash, and Kibana), Kibana also acts as the user interface for monitoring, managing, and securing an Elastic Stack cluster — as well as the centralized hub for built-in solutions developed on the Elastic Stack. 
 
 After setting Kibana up, we will be able to use its interface to search through and visualize the data that Elasticsearch stores.
 
@@ -53,7 +51,7 @@ server {
     }
 }
 ```
-  > Make sure to update team3.acirrustech.com  and www.team3.acirrustech.com to match your server’s public IP address. This code configures Nginx to direct your server’s HTTP traffic to the Kibana application, which is listening on localhost:5601. Additionally, it configures Nginx to read the htpasswd.users file and require basic authentication.
+-  - Make sure to update team3.acirrustech.com  and www.team3.acirrustech.com to match your server’s public IP address. This code configures Nginx to direct your server’s HTTP traffic to the Kibana application, which is listening on localhost:5601. Additionally, it configures Nginx to read the htpasswd.users file and require basic authentication.
 
 Then check the configuration for syntax errors:
 
@@ -61,7 +59,7 @@ Then check the configuration for syntax errors:
                 sudo nginx -t
 ```
 
-> If any errors are reported in your output, go back and double check that the content you placed in your configuration file was added correctly. Once you see syntax is ok in the output, go ahead and restart the Nginx service. 
+-  - If any errors are reported in your output, go back and double check that the content you placed in your configuration file was added correctly. Once you see syntax is ok in the output, go ahead and restart the Nginx service. 
 
 ```
          sudo systemctl restart nginx
@@ -80,3 +78,5 @@ Congrats!!! Kibana dashboard is configured and Kibana status is Green!
 ![Kibana](https://i.imgur.com/QSiMhUD.png)
 
 -    - This status page displays information about the server’s resource usage and lists the installed plugins.
+
+Next, [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Logstash%20Installation.md)
