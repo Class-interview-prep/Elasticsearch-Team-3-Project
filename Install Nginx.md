@@ -66,4 +66,4 @@ sudo firewall-cmd --permanent --zone=public --add-service=https
 ```
 Check with IP address on the browser 
 
-![welcome-to-nginx](https://www.cyberciti.biz/media/new/faq/2018/01/Welcome-to-Nginx.jpg)
+![team3](https://www.cyberciti.biz/media/new/faq/2018/01/Welcome-to-Nginx.jpg) 
