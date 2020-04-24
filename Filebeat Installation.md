@@ -190,4 +190,4 @@ Whalla, Installation is done! In a web browser, enter your public IP address of 
 
 ![Kibana Web](https://assets.digitalocean.com/articles/elastic_CentOS7_120618/Kibana_Homepage_TN.png)
 
-Let's take our last step and Exploring Kibana Dashboards!!! [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Kibana%20Installation.md)
+Let's take our last step and Exploring Kibana Dashboards!!! [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Exploring%20Kibana%20Dashboards.md)
