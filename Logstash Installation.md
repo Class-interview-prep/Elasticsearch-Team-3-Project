@@ -122,3 +122,5 @@ Once your configuration test is successful, start and enable Logstash:
 
 
 https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elastic-stack-on-centos-7#step-5-%E2%80%94-exploring-kibana-dashboards
+
+...
