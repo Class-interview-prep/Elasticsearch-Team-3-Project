@@ -74,3 +74,11 @@ WHAT IS kIBANA
 
 
 _**Follow our guide on How To Install Kibana on CentOS 7[Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Kibana%20Installation.md)**_
+
+
+## Step 3. Logstash
+
+![Logstash logo](https://www.javainuse.com/beats-logstash.jpg)
+
+
+_**Follow our guide on How To Install Logstash on CentOS 7 [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Logstash%20Installation.md)**_
