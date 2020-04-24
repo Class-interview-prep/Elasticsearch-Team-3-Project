@@ -1,5 +1,6 @@
-# Introduction
-This tutorial will show you how to install Java on CentOS 7 . Java is a popular software platform that allows you to run Java applications and applets. OpenJDK 8 is the latest version of OpenJDK.
+# JAVA 8 Installation on CentOS 7
+
+This tutorial will show you how to install Java 8 on CentOS 7 . Java  is a popular software platform that allows you to run Java applications and applets. OpenJDK 8 is the latest version of OpenJDK.
 
 
 There are two different Java SE packages that can be installed: 
