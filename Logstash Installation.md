@@ -119,7 +119,4 @@ Once your configuration test is successful, start and enable Logstash:
                 sudo systemctl enable logstash
 ```
 
-
-https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elastic-stack-on-centos-7#step-5-%E2%80%94-exploring-kibana-dashboards
-
-...
+Next Step: [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Filebeat%20Installation.md)
