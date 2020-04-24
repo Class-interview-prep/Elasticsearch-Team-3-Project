@@ -82,3 +82,9 @@ _**Follow our guide on How To Install Kibana on CentOS 7[Click Here](https://git
 
 
 _**Follow our guide on How To Install Logstash on CentOS 7 [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Logstash%20Installation.md)**_
+
+## Step 4 — Installing and Configuring Filebeat
+
+The Elastic Stack uses several lightweight data shippers called Beats to collect data from various sources and transport them to Logstash or Elasticsearch. 
+
+_**Follow our guide on How To Install Logstash on CentOS 7 [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Filebeat%20Installation.md)**_
