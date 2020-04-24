@@ -66,3 +66,11 @@ The open source, distributed, RESTful, JSON-based search engine. Easy to use, sc
 
 
 _**Follow our guide on How To Install Nginx on CentOS 7 to set this up.[Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Install%20Elasticsearch.md)**_
+
+## Step 2. Kibana
+
+WHAT IS kIBANA
+
+
+
+_**Follow our guide on How To Install Kibana on CentOS 7[Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Kibana%20Installation.md)**_
