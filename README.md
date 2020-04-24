@@ -43,9 +43,12 @@ Versions :
  | Logshtash                       | 6.8.8 |
  | Filebeat                        |6.8.8 |
 
+
+   -  - Note: When installing the Elastic Stack, you should use the same version across the entire stack. In this project we used Versions are listed above. 
+ 
 ## Prerequisites:
 
-For this project , we lunched the Instance in South America (São Paulo) region but we moved our instance to US East (N. Virginia)us-east-1 since we had to use VPC prepared by them. We lunched instance with the following specifications for our Elastic Stack server:
+For this project , we created image in South America (São Paulo) region and lunched our instance in US East (N. Virginia)us-east-1 since we had to use VPC prepared by Team 1. We lunched the instance with the following specifications for our Elastic Stack server:
 
 OS: CentOS 7
 
@@ -53,8 +56,7 @@ RAM: 4GB
 
 CPU: 2
 
-Before you start with this tutorial, make sure you are logged into your server with a user account with 
-sudo privileges or with the root user.
+Before you start with this tutorial, make sure you are logged into your server with a user with sudo privileges or with the root user.
 
  - Nginx installed on your server, which you will configure later in this guide as a reverse proxy for Kibana. 
 
