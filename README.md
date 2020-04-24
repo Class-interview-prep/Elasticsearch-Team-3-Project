@@ -1,7 +1,7 @@
 # Elastic Stack  Installation on CentOS 7
 ---
 
-
+https://www.woolha.com/media/2018/07/ansible-playbook-for-setting-up-elastic-stack.jpg
 
 
 
