@@ -31,7 +31,9 @@ installed on a single server, referred to as the Elastic Stack server.
 -  Prerequisites
 
 -  Installation instructions
+-  Resources
 
+- Contributors
 
 
 Versions :            
@@ -110,3 +112,35 @@ _**Follow our guide on How To Install Logstash on CentOS 7. [Click Here](https:/
 ![](https://cezarypiatek.github.io/post/demystifying-elk-stack/elk_overview.jpg)
 
 _**Follow our guide on How To Install Filebeat on CentOS 7. [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Filebeat%20Installation.md)**_
+
+
+## Resources:
+
+Sources:
+
+<https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elastic-stack-on-centos-7)>
+
+<https://guides.github.com/features/wikis/>
+
+
+<https://www.elastic.co/>
+
+<https://www.google.com/>
+
+## Contributors
+
+This tutorial created by Evolve Cyber February batch 2020 Team 3 members listed above:
+
+-  Meryem Elibal - merycicek@gmail.com
+
+  - Rasheed Balogun - balloray@gmail.com
+
+-  Davronbek Normuradov - davronbekn@gmail.com
+
+ -  Azymberdi Gutdanov - azymberdi@gmail.com
+
+- Solongo Ganbold -solongocyber@gmail.com
+
+-  Sophie Kamil - sophie.s.kamil@gmail.com
+
+ - AdnanK - adnankursun@gmail.com
