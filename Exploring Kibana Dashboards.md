@@ -17,3 +17,14 @@ For example, you can view detailed stats based on your syslog messages:
 
 ![](https://assets.digitalocean.com/articles/elastic_CentOS7_120618/Kibana_SyslogDashboard_TN.png)
 
+You can also view which users have used the sudo command and when:
+
+![](https://assets.digitalocean.com/articles/elastic_CentOS7_120618/Kibana_Sudo_Page_TN.png)
+
+ 
+Kibana has many other features, such as graphing and filtering, so feel free to explore.
+
+Conclusion
+
+In this tutorial, you installed and configured the Elastic Stack to collect and analyze system logs. Remember that you can send just about any type of log or indexed data to Logstash using Beats, but the data becomes even more useful if it is parsed and structured with a Logstash filter, as this transforms the data into a consistent format that can be read easily by Elasticsearch.
+
