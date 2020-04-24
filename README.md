@@ -5,7 +5,7 @@
 
 
 ## Introduction
- ### What is ELK Stack
+ ### What is ELK Stack ?
 The Elastic Stack is a collection of open-source software produced by Elastic which allows you to search, analyze, and visualize logs generated from any source in any format, a practice known as centralized logging. 
 
 ![ELC STACK](https://sysadminwork.com/wp-content/uploads/2018/09/Elasticsearch-Logstash-Kibana-ELK-Stack-1.png)
@@ -13,18 +13,21 @@ The Elastic Stack is a collection of open-source software produced by Elastic wh
 
 The Elastic Stack has four main components:
 
-1. [Elasticsearch](elasticsearch) - is used for storage, analysis, search by logs.
-1. Logstash - service for collecting logs and sending them to Elasticsearch. In the simplest configuration, you can do without it and send logs directly to Elasticsearch. But with logstash it is more flexible to do it.
-1. Kibana - is web panel for working with logs.
-1. Beat - agents to send logs to Logstash. They are different. I will use Filebeat to send data from linux and Winlogbeat text logs to send logs from Windows logs.
+1 . `Elasticsearch` - Elasticsearch is a search and analytics engine. The open source, distributed, RESTful, JSON-based search engine. Easy to use, scalable and flexible, it earned hyper-popularity among users and a company formed around it, you know, for search.
+
+2 . `Logstash` - Logstash is a light-weight, open-source, server-side data processing pipeline that allows you to collect data from a variety of sources, transform it on the fly, and send it to your desired destination.sh it is more flexible to do it.
+
+3 . `Kibana` - Kibana lets you visualize your Elasticsearch data and navigate the Elastic Stack so you can do anything from tracking query load to understanding the way requests flow through your apps.
+
+4 . `Beat` -  Beats are open source data shippers that you install as agents on your servers to send operational data to Elasticsearch.
 
 
 This tutorial provides you how to install the Elastic Stack on a CentOS 7 server. At the end of this tutorial, you will have all of these components installed on a single server, referred to as the Elastic Stack server.
 
  ### Contents:
--  [Version](#version)
--  [Prerequisites](#)
--  [installation instructions](#)
+-  `Versions`
+-  `Prerequisites`
+-  `Installation instructions`
 
 
 
@@ -36,7 +39,7 @@ This tutorial provides you how to install the Elastic Stack on a CentOS 7 server
  | Kibana                         | 7.6.5|
  | Logshtash                       | 7.6.5|
 
-[Prerequisites](#prerequisites)
+## Prerequisites:
 
 Before you start with this tutorial, make sure you are logged into your server with a user account with sudo privileges or with the root user.
 
@@ -45,7 +48,7 @@ Before you start with this tutorial, make sure you are logged into your server w
  [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Install%20Nginx.md)**_
 
 
-* Java 8 — which is required by Elasticsearch and Logstash — installed on your server. 
+* Java 8 — which is required by Elasticsearch and Logstash  installed on your server. 
 _**Follow our guide on How To Install Java 8 on CentOS 7 to set this up. [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Install%20Java.md)**_
 
 - Both of the following DNS records set up for your server.
@@ -57,19 +60,19 @@ _**Follow our guide on How To Install Java 8 on CentOS 7 to set this up. [Click 
 We used team3acirrustech.com domain name for our project but you can use your own domain name.
 
 
-## Step 1 . [Elasticsearch](elasticsearch)
-Elasticsearch is a search and analytics engine.
-The open source, distributed, RESTful, JSON-based search engine. Easy to use, scalable and flexible, it earned hyper-popularity among users and a company formed around it, you know, for search.
+## Step 1 .  [Elasticsearch](#elasticsearch)
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT53B3UvRi1KoGwNQMRw_0slL-xWX3Mu70O49_yks3HzL_f_eLy&usqp=CAU)
 
 
 
+_**Follow our guide on How To Install Elasticsearch on CentOS 7. [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Install%20Elasticsearch.md)**_
 
 
-_**Follow our guide on How To Install Elasticsearch on CentOS 7 to set this up.[Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Install%20Elasticsearch.md)**_
 
 ## Step 2. Kibana
 
-WHAT IS kIBANA
+![](https://user-images.githubusercontent.com/567298/55418811-b8b54c00-5573-11e9-810d-d244d27c4fb3.png)
 
 
 
@@ -85,6 +88,6 @@ _**Follow our guide on How To Install Logstash on CentOS 7 [Click Here](https://
 
 ## Step 4 — Installing and Configuring Filebeat
 
-The Elastic Stack uses several lightweight data shippers called Beats to collect data from various sources and transport them to Logstash or Elasticsearch. 
+![](https://cezarypiatek.github.io/post/demystifying-elk-stack/elk_overview.jpg)
 
-_**Follow our guide on How To Install Logstash on CentOS 7 [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Filebeat%20Installation.md)**_
+_**Follow our guide on How To Install Filebeat on CentOS 7 [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Filebeat%20Installation.md)**_
