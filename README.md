@@ -6,15 +6,18 @@
 
 
 ## Introduction
+ ### What is ELK Stack
 The Elastic Stack is a collection of open-source software produced by Elastic which allows you to search, analyze, and visualize logs generated from any source in any format, a practice known as centralized logging. 
+
+![ELC STACK](https://sysadminwork.com/wp-content/uploads/2018/09/Elasticsearch-Logstash-Kibana-ELK-Stack-1.png)
 
 
 The Elastic Stack has four main components:
 
-1. [Elasticsearch](elasticsearch)
-1. Logstash 
-1. Kibana 
-1. Beat
+1. [Elasticsearch](elasticsearch) - is used for storage, analysis, search by logs.
+1. Logstash - service for collecting logs and sending them to Elasticsearch. In the simplest configuration, you can do without it and send logs directly to Elasticsearch. But with logstash it is more flexible to do it.
+1. Kibana - is web panel for working with logs.
+1. Beat - agents to send logs to Logstash. They are different. I will use Filebeat to send data from linux and Winlogbeat text logs to send logs from Windows logs.
 
 
 This tutorial provides you how to install the Elastic Stack on a CentOS 7 server. At the end of this tutorial, you will have all of these components installed on a single server, referred to as the Elastic Stack server.
