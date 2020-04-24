@@ -1,9 +1,8 @@
 # Step 3 — Installing and Configuring Logstash
 
-Whta is Logstash?
+What is Logstash?
 
 
-![Logstash logo](https://www.javainuse.com/beats-logstash.jpg)
 
 Logstash is an open source data collection engine with real-time pipelining capabilities. Logstash will allow you to collect data from different sources, transform it into a common format, and export it to another database. Logstash’s configuration files are written in the JSON format and reside in the /etc/logstash/conf.d directory. 
 The Logstash event processing pipeline has three stages: 
