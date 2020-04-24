@@ -64,6 +64,7 @@ sudo firewall-cmd --permanent --zone=public --add-service=https
 ```
         sudo ss -tulpn
 ```
-Check with IP address on the browser 
+Check with IP address on the browser :
 
 ![team3](https://www.cyberciti.biz/media/new/faq/2018/01/Welcome-to-Nginx.jpg) 
+
