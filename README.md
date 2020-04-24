@@ -12,57 +12,17 @@ The Elastic Stack is a collection of open-source software produced by Elastic wh
 
 The Elastic Stack has four main components:
 
-1 . `Elasticsearch` - Elasticsearch is a search and 
-
-analytics engine. The open source, distributed, 
-
-RESTful, JSON-based search engine. Easy to use, 
-
-scalable and flexible, it earned hyper-popularity 
-
-among users and a company formed around it, you 
-
+1 . `Elasticsearch` - Elasticsearch is a search and analytics engine. The open source, distributed,RESTful, JSON-based search engine. Easy to use, scalable and flexible, it earned hyper-popularity among users and a company formed around it, you 
 know, for search.
 
-2 . `Logstash` - Logstash is a light-weight, 
+2 . `Logstash` - Logstash is a light-weight, open-source, server-side data processing pipeline that allows you to collect data from a variety of sources, transform it on the fly, and send it to your desired destination.sh it is more flexible to do it.
 
-open-source, server-side data processing pipeline 
+3 . `Kibana` - Kibana lets you visualize your Elasticsearch data and navigate the Elastic Stack so you can do anything from tracking query load to understanding the way requests flow through your apps.
 
-that allows you to collect data from a variety of 
+4 . `Beat` -  Beats are open source data shippers that you install as agents on your servers to send operational data to Elasticsearch.
 
-sources, transform it on the fly, and send it to 
-
-your desired destination.sh it is more flexible to 
-
-do it.
-
-3 . `Kibana` - Kibana lets you visualize your 
-
-Elasticsearch data and navigate the Elastic Stack so 
-
-you can do any
-thing from tracking query load to 
-
-understanding the way requests flow through your 
-
-apps.
-
-4 . `Beat` -  Beats are open source data shippers t
-
-hat you install as agents on your servers to send 
-
-operational data to Elasticsearch.
-
-
-This tutorial provides you how to install the 
-
-Elastic Stack on a CentOS 7 server. At the end of 
-
-this tutorial, you will have all of these components 
-
-installed on a single server, referred to as the 
-
-Elastic Stack server.
+This tutorial provides you how to install the Elastic Stack on a CentOS 7 server. At the end of this tutorial, you will have all of these components 
+installed on a single server, referred to as the Elastic Stack server.
 
  ### Contents:
 
@@ -85,59 +45,36 @@ Versions :
 
 ## Prerequisites:
 
-For this tutorial, we will be using a VPS from Team 1 
-
-with the following specifications for our Elastic Stack server:
+For this project , we lunched the Instance in South America (São Paulo) region but we moved our instance to US East (N. Virginia)us-east-1 since we had to use VPC prepared by them. We lunched instance with the following specifications for our Elastic Stack server:
 
 OS: CentOS 7
+
 RAM: 4GB
+
 CPU: 2
 
-Before you start with this tutorial, make sure you 
-
-are logged into your server with a user account with 
-
+Before you start with this tutorial, make sure you are logged into your server with a user account with 
 sudo privileges or with the root user.
 
- - Nginx installed on your server, which you will 
- 
- configure later in this guide as a reverse proxy 
- 
- for Kibana. 
+ - Nginx installed on your server, which you will configure later in this guide as a reverse proxy for Kibana. 
 
-   _**Follow our guide on How To Install Nginx 
+    - _**Follow our guide on How To Install Nginx 
      ( Nginx version: nginx/1.17.10 ) on CentOS 7 to 
-     set this up.  [Click Here](https://github.com/solongocyber/
- Elasticsearch-Team-3-Project/blob/master/
- Install%20Nginx.md)**_
+     set this up.  [Click here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Install%20Nginx.md)**_
 
 
-* Java 8 — which is required by Elasticsearch and 
+* Java 8 — which is required by Elasticsearch and Logstash  installed on your server. 
 
-Logstash  installed on your server. 
+   -  _**Follow our guide on How To Install Java 8 ( Open JDK 8 version “1.8.0_242” ) on CentOS 7 to set this up. [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Install%20Java.md)**_
 
-- _**Follow our guide on How To Install Java 8 
-     
-     ( Open JDK 8 version “1.8.0_242” ) on CentOS 7 
-     
-     to set this up. [Click Here](https://github.com/solongocyber/Elasticsearch-Team-3-Project/blob/master/Install%20Java.md)**_
+- Both of the following DNS records set up for your server.
 
-- Both of the following DNS records set up for your 
-
-server.
-
-    - An A record with team3acirrustech.com pointing 
-    
-    to your server’s public IP address.
+    - An A record with team3acirrustech.com pointing to your server’s public IP address.
    
-    - An A record with www.team3acirrustech.com 
-    
-    pointing to your server’s public IP address.
+    - An A record with www.team3acirrustech.com pointing to your server’s public IP address.
 
 
-We used team3acirrustech.com domain name for our 
-
-project but you can use your own domain name.
+We used team3acirrustech.com domain name for our project but you can use your own domain name.
 
 
 ## Step 1 .  [Elasticsearch](#elasticsearch)
